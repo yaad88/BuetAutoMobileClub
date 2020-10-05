@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Edit Profile</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/home/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/home/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/home/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    	<style>
+	::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+}
+</style>
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="index.html">
+							<img src="./img/logo-alt.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="index.html" style ="color:black; ">Home</a></li>
+						<li><a href="#" style ="color:black; ">Profile</a></li>
+						<li><a href="#" style ="color:black; ">Current Works</a></li>
+						<li><a href="blog.html" style ="color:black; ">About Us</a></li>
+						<li><a href="index.php" style= "color:black;"> Blogs</a></li>
+						
+						<li><a href="contact.html" style ="color:black; ">Achievements</a></li>
+						<li><a href="contact.html" style ="color:red; margin-left:20px ">Logout!</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Hero-area -->
+		<div class="hero-area section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/home-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 text-center">
+						
+						<h1 class="white-text">Edit Your Profile</h1>
+						<form>
+							
+							
+							<h3 align="left" style="margin-top:20px;color:white;"> Edit Username: </h3> 
+							<input id="uname" type="text" style="margin-top:20px;color:white;">
+
+							<h3 align="left" style="margin-top:20px;color:white;"> Your Facebook Link: </h3> 
+							<input id="fb" type="text" style="margin-top:20px;color:white;">
+							
+							<h3 align="left" style="margin-top:20px;color:white;"> Position in BAC: </h3> 
+							<input id="position" type="text" style="margin-top:20px;color:white;">
+							
+							
+							
+							
+							<h3 align="left" style="margin-top:20px;color:white;"> Enter Contact No: </h3> 
+							<input id="phone" type="number" style="margin-top:20px;color:white;">
+							
+
+							<h3 align="left" style="color:white; margin-top:20px; "> <b> Select Membership Type: </b> </h3>
+							<h3 align="left">
+							<select name="type" style ="margin-top:20px; ; ">
+								<option value="0">General Member</option>
+								<option value="1">Committee Member</option>
+								<option value="2">Admin Panel</option>
+								<option value="3">Moderator</option>
+							</select>
+							</h3>
+							
+						
+							
+							
+							
+							<h3 align="left" style="margin-top:20px;color:white;"> Choose photo: </h3> 
+							<h3>
+							<input id="pic" type="file" accept="image/*" style="margin-top:20px;color:white;">
+							</h3>
+							
+							<h3 align="left" style="margin-top:20px;color:white;"> Skills: </h3> 
+							<input id="skill" type="text" style="margin-top:20px;color:white;">
+							
+							<h3 align="left" style="margin-top:20px;color:white;"> Write something about yourself: </h3> 
+							<textarea id = "myTextArea" placeholder="Event Description" rows = "80" cols = "80" style="margin-top:20px;color:white;"> </textarea>
+							
+							<h3  style="color:white; margin-top:20px; "> <b> Three Catchphrases That Define You: </b> </h3>
+							<h3>
+							<input type="text" placeholder="First trait" name="first" style="color:white; width:200px; margin-top:20px">
+							<input type="text" placeholder="Second trait" name="second" style="color:white; width:200px; margin-left:20px">
+							<input type="text" placeholder="Third trait" name="third" style="color:white; width:200px; margin-left:20px">
+							</h3>
+							
+							
+							<p><button type="submit" style="margin-left:30px; margin-top: 20px; height: 60px; width: 150px; font-size:32px" > <b> Submit </b> </button></p>
+							</form>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Hero-area -->
+
+		
+		<!-- /Blog -->
+
+		<!-- Footer -->
+		
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>
